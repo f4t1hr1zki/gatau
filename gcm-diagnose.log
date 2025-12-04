@@ -1,0 +1,181 @@
+﻿Diagnose log at 2025-12-04T21:53:09Z
+
+AppPath: D:\cudatext\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: D:\cudatext\Git\mingw64\bin\
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+PROCESSOR_ARCHITEW6432=AMD64
+POSH_INSTALLER=winget
+COMPUTERNAME=NERVEGEAR
+PROGRAMDATA=C:\ProgramData
+GIT_TRACE2_PARENT_SID=68f51697-b055-431b-9670-9fda2e57bb1d
+LEVEL_ZERO_V1_SDK_PATH=C:\Program Files\LevelZeroSDK\1.24.0\
+EFC_9892_3789132940=1
+HOMEPATH=\Users\FATIH
+SESSIONNAME=Console
+TMP=C:\Users\FATIH\AppData\Local\Temp
+PROCESSOR_REVISION=8c01
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+EFC_9892_1262719628=1
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+GIT_EXEC_PATH=D:/cudatext/Git/mingw64/libexec/git-core
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+TEMP=C:\Users\FATIH\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\FATIH\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+GOPATH=C:\Users\FATIH\go
+POSH_THEMES_PATH=C:\Users\FATIH\AppData\Local\Programs\oh-my-posh\themes
+USERDOMAIN=NERVEGEAR
+PT7HOME=D:\Cisco Packet Tracer 7.3.0\Cisco Packet Tracer 7.3.0
+SYSTEMROOT=C:\WINDOWS
+EFC_9892_1592913036=1
+PROCESSOR_LEVEL=6
+NUMBER_OF_PROCESSORS=8
+TMPDIR=C:\Users\FATIH\AppData\Local\Temp
+PROMPT=$P$G
+PUBLIC=C:\Users\Public
+PYTHONIOENCODING=UTF-8
+QT_DEVICE_PIXEL_RATIO=auto
+PROGRAMFILES=C:\Program Files (x86)
+USERDOMAIN_ROAMINGPROFILE=NERVEGEAR
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PATH=D:/cudatext/Git/mingw64/libexec/git-core;D:\cudatext\Git\mingw64\bin;D:\cudatext\Git\usr\bin;C:\Users\FATIH\bin;D:\VirtualBox VMs\bin\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\System32\HWAudioDriverLibs;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\FPC\3.2.2\bin\i386-Win32;C:\Program Files\dotnet\;C:\Program Files\Cloudflare\Cloudflare WARP\;D:\Microsoft VS Code\Golang\bin;D:\Neovim\bin;D:\cudatext\Git\cmd;C:\Users\FATIH\AppData\Local\Microsoft\WindowsApps;;C:\Users\FATIH\AppData\Local\Programs\oh-my-posh\bin;D:\Microsoft VS Code\bin;C:\Users\FATIH\go\bin
+PLINK_PROTOCOL=ssh
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+INTEL_DEV_REDIST=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+HOME=C:\Users\FATIH
+LC_CTYPE=C.UTF-8
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+ZES_ENABLE_SYSMAN=1
+LOGONSERVER=\\NERVEGEAR
+USERPROFILE=C:\Users\FATIH
+ONEDRIVE=C:\Users\FATIH\OneDrive
+COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files
+PROGRAMW6432=C:\Program Files
+APPDATA=C:\Users\FATIH\AppData\Roaming
+HOMEDRIVE=C:
+SYSTEMDRIVE=C:
+EFC_9892_2775293581=1
+USERNAME=FATIH
+MIC_LD_LIBRARY_PATH=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+WINDIR=C:\WINDOWS
+PROCESSOR_ARCHITECTURE=x86
+EFC_9892_2283032206=1
+OS=Windows_NT
+VBOX_MSI_INSTALL_PATH=D:\VirtualBox VMs\
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\FATIH\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\FATIH\AppData\Local\Temp\e747483589657450e4cf956b'... OK
+Reading from temporary file 'C:\Users\FATIH\AppData\Local\Temp\e747483589657450e4cf956b'... OK
+Deleting temporary file 'C:\Users\FATIH\AppData\Local\Temp\e747483589657450e4cf956b'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\FATIH
+UserDataDirectoryPath: C:\Users\FATIH\.gcm
+GetCurrentDirectory(): D:\Notepad++ Save
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:1565/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.52.0.windows.1'
+Locating current repository...Not inside a Git repository.
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:D:/cudatext/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:D:/cudatext/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:D:/cudatext/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:D:/cudatext/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:D:/cudatext/Git/etc/gitconfig	filter.lfs.required=true
+file:D:/cudatext/Git/etc/gitconfig	http.sslbackend=schannel
+file:D:/cudatext/Git/etc/gitconfig	core.autocrlf=true
+file:D:/cudatext/Git/etc/gitconfig	core.fscache=true
+file:D:/cudatext/Git/etc/gitconfig	core.symlinks=false
+file:D:/cudatext/Git/etc/gitconfig	core.editor="D:\\cudatext\\cudatext.exe" 
+file:D:/cudatext/Git/etc/gitconfig	pull.rebase=false
+file:D:/cudatext/Git/etc/gitconfig	credential.helper=manager
+file:D:/cudatext/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:D:/cudatext/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/FATIH/.gitconfig	user.name=fatih
+file:C:/Users/FATIH/.gitconfig	user.email=fatihdarko296@gmail.com
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\FATIH\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\FATIH\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
